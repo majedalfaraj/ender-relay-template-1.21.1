@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "ender-relay",
+	"version": "${version}",
+	"name": "Ender Relay",
+	"description": "This is a mod that implements the Ender Relay block, suggested by Kenadian The Cat",
+	"authors": [
+		"malfaraj!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/ender-relay/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.malfaraj.ender_relay.EnderRelay"
+		],
+		"client": [
+			"com.malfaraj.ender_relay.EnderRelayClient"
+		],
+		"fabric-datagen": [
+			"com.malfaraj.ender_relay.EnderRelayDataGenerator"
+		]
+	},
+	"mixins": [
+		"ender-relay.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
