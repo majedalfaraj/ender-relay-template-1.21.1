@@ -1,5 +1,6 @@
 package com.malfaraj.ender_relay;
 
+import com.malfaraj.ender_relay.item.ModItemGroups;
 import com.malfaraj.ender_relay.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -16,8 +17,8 @@ public class EnderRelay implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
-
 
 	}
 }
