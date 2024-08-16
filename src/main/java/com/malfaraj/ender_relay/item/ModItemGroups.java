@@ -16,7 +16,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ender-relay"))
                     .icon(() -> new ItemStack(ModItems.ENDER_RELAY)).entries((displayContext, entries) -> {
                         entries.add(ModItems.ENDER_RELAY);
-                        // ADD ITEMS HERE  
+                        // ADD ITEMS HERE
                     }).build());
     public static void registerItemGroups() {
         EnderRelay.LOGGER.info("Register Ender Relay Item group for " + EnderRelay.MOD_ID);
