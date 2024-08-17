@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "X": {
+      "item": "minecraft:popped_chorus_fruit"
+    },
+    "L": {
+      "item": "minecraft:compass"
+    }
+  },
+  "pattern": [
+    "OXO",
+    "XLX",
+    "OXO"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ender-relay:ender-relay-block"
+  }
+}
