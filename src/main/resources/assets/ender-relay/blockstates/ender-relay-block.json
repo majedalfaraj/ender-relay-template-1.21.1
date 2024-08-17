@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "ender-relay:block/ender-relay-block-on"
+    }
+  }
+}

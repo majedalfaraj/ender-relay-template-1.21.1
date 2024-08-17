@@ -1,6 +1,7 @@
 package com.malfaraj.ender_relay.item;
 
 import com.malfaraj.ender_relay.EnderRelay;
+import com.malfaraj.ender_relay.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -15,8 +16,12 @@ public class ModItemGroups {
             Identifier.of(EnderRelay.MOD_ID, "ender-relay"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.ender-relay"))
                     .icon(() -> new ItemStack(ModItems.ENDER_RELAY)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.ENDER_RELAY);
+                        entries.add(ModBlocks.ENDER_RELAY_BLOCK);
+
                         // ADD ITEMS HERE
+
                     }).build());
     public static void registerItemGroups() {
         EnderRelay.LOGGER.info("Register Ender Relay Item group for " + EnderRelay.MOD_ID);

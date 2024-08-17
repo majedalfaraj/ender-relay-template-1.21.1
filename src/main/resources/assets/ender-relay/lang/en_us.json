@@ -1,5 +1,7 @@
 {
-  "item.ender-relay.ender-relay": "Ender Relay",
+  "item.ender-relay.ender-relay": "Ender Relay Test",
+
+  "block.ender-relay.ender-relay-block": "Ender Relay",
 
   "itemgroup.ender-relay": "Ender Relay Group"
 }
